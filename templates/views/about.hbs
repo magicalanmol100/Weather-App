@@ -18,8 +18,13 @@
          --}}
          <div class="main-content">
              {{>header}}
+             <p>This site makes use of two APIs:-</p>
+             <ul>
+                 <li>The site integrates MapBox API's geocoding service to get back the latitude and longitude as a response based off the location that is provided to it by the user </li>
+                 <li>The site uses DarkSkyNet API to get back the weather forecast based off the latitude and longitude that is provided to it </li>
+             </ul>
         
-        <img class="portrait"src="/img/download.jpg" alt="">
+        {{!-- <img class="portrait"src="/img/download.jpg" alt=""> --}}
          </div>
          
         {{>footer}}
