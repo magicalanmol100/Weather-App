@@ -1,0 +1,53 @@
+body{
+    color:#333333;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 650px;
+    margin:0 auto;
+    padding:0 16px;
+    display:flex;
+    flex-direction: column;
+    min-height:100vh;
+    /* margin-left:16px; */
+}
+/* Margin is spacing between elements */
+.main-content{
+    flex-grow: 1;
+}
+footer{
+    /* background:blue; */
+    /* padding:16px; */
+    /* margin:16px;  */
+     color:#888888;
+     border-top:1px solid #eeeeee;
+     /* Here we would like to set top margin */
+     margin-top:16px;
+}
+header{
+    margin-top: 16px;
+    margin-bottom:40px
+}
+h1{
+    font-size:64px;
+    margin-bottom: 16px;
+}
+header a{
+    color:#888888;
+    margin-right:16px;
+    /* Margin right to add spacing between anchor elements */
+    /* We only want to do styling for anchor tags inside the header.Otherwise it will be applied to all anchor tags and same for image */
+    text-decoration: none;
+}
+.portrait{
+    height:250px
+}
+input{
+    border:1px solid #cccccc;
+    padding:8px;
+}
+button{
+   cursor:pointer;
+   border:1px solid #888888;
+   background:#888888;
+   color:white;
+   padding:8px;
+}
