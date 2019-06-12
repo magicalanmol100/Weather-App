@@ -7,9 +7,8 @@ body{
     display:flex;
     flex-direction: column;
     min-height:100vh;
-    /* margin-left:16px; */
+
 }
-/* Margin is spacing between elements */
 .main-content{
     flex-grow: 1;
 }
