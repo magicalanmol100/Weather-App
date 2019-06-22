@@ -7,22 +7,27 @@ body{
     display:flex;
     flex-direction: column;
     min-height:100vh;
+    background-image: url("../img/weather3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .main-content{
     flex-grow: 1;
+    color:white
 }
 footer{
     /* background:blue; */
     /* padding:16px; */
     /* margin:16px;  */
-     color:#888888;
+     color:white;
      border-top:1px solid #eeeeee;
      /* Here we would like to set top margin */
      margin-top:16px;
 }
 header{
     margin-top: 16px;
-    margin-bottom:40px
+    margin-bottom:40px;
+    color:white
 }
 h1{
     font-size:64px;
@@ -34,6 +39,7 @@ header a{
     /* Margin right to add spacing between anchor elements */
     /* We only want to do styling for anchor tags inside the header.Otherwise it will be applied to all anchor tags and same for image */
     text-decoration: none;
+    color:white
 }
 .portrait{
     height:250px
@@ -51,4 +57,20 @@ button{
 }
 form{
     margin-bottom: 20px;
+}
+.card{
+    /* background-color:#0BD600 */
+}
+
+
+#message-2{
+    /* color:#0E00D6; */
+    /* color:#D600D6; */
+    font-weight:600;
+    /* background-color: black;
+    color:white */
+}
+
+#about{
+    color:#D600D6;
 }

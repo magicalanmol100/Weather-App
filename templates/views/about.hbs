@@ -19,11 +19,24 @@
          --}}
          <div class="main-content">
              {{>header}}
-             <p class="lead">This site makes use of two APIs:-</p>
+             {{!-- <p class="lead">This site makes use of two APIs:-</p>
              <ul>
                  <li class="lead">The site integrates MapBox API's geocoding service to get back the latitude and longitude as a response based off the location that is provided to it by the user </li>
                  <li class="lead">The site uses DarkSkyNet API to get back the weather forecast based off the latitude and longitude that is provided to it </li>
-             </ul>
+             </ul> --}}
+             <div class="card" style="width: 30rem;">
+                
+                 <div class="card-body">
+                <h5 class="card-title text-info">This site makes use of two APIs:-</h5>
+                 <p class="card-text" id="about">
+                     <ul>
+                 <li class="lead text-primary">The site integrates MapBox API's geocoding service to get back the latitude and longitude as a response based off the location that is provided to it by the user </li>
+                 <li class="lead text-primary">The site uses DarkSkyNet API to get back the weather forecast based off the latitude and longitude that is provided to it </li>
+                     </ul>
+                 </p>
+                  
+                  </div>
+                   </div>
         
         {{!-- <img class="portrait"src="/img/download.jpg" alt=""> --}}
          </div>

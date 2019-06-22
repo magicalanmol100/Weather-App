@@ -1,15 +1,27 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-"start":"node src/app.js"  },
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bad-words": "^3.0.2",
     "express": "^4.17.1",
     "hbs": "^4.0.4",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicalanmol100/Weather-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/magicalanmol100/Weather-App/issues"
+  },
+  "homepage": "https://github.com/magicalanmol100/Weather-App#readme",
+  "description": ""
 }
